@@ -1,0 +1,49 @@
+.square {
+height: 100px;
+width: 100px;
+background-color:red;
+margin: 10px;
+float: left;
+                                                                                                                                                                                                                                                                                                           
+}
+.rectangle{
+height: 50px;
+width: 100px;
+background-color: green;
+margin: 10px;
+float: left;
+position: absolute;
+
+}
+
+.circle {
+height: 100px;
+width: 100px;
+border-radius: 50%;
+background-color:purple;
+position: left;
+}   
+
+.triangle {
+    text-indent: -9999px;
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid yellow;
+    border-left: 80px solid transparent;
+}
+
+#container {
+    overflow: hidden;
+    width: 100%; /* for good measure */
+  }
+
+.grid-container {
+
+    grid-template-columns: auto auto auto;
+    background-color: transparent
+    padding: 10px;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    border: 10px solid black;
+
+}  
